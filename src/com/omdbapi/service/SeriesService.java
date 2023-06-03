@@ -31,6 +31,8 @@ public class SeriesService {
                 System.out.println(responseSeries);
 
                 return responseSeries;
+            } else {
+                System.out.println("Serie não encontrada!");
             }
         } catch (Exception e) {
             System.out.println(e.getMessage());

@@ -31,6 +31,8 @@ public class MovieService {
                 System.out.println(responseMovie);
 
                 return responseMovie;
+            } else {
+                System.out.println("Filme não encontrado!");
             }
         } catch (Exception e) {
             System.out.println(e.getMessage());
