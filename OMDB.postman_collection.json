@@ -1,0 +1,217 @@
+{
+	"info": {
+		"_postman_id": "31d62cd7-168d-4e2e-9a4f-0b3360abebb4",
+		"name": "OMDB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21348557"
+	},
+	"item": [
+		{
+			"name": "Movies",
+			"item": [
+				{
+					"name": "Movie By Title",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://www.omdbapi.com/?t=matrix&type=movie",
+							"protocol": "https",
+							"host": [
+								"www",
+								"omdbapi",
+								"com"
+							],
+							"path": [
+								""
+							],
+							"query": [
+								{
+									"key": "t",
+									"value": "matrix"
+								},
+								{
+									"key": "type",
+									"value": "movie"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search By Movie",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://www.omdbapi.com/?s=godfather&type=movie",
+							"protocol": "https",
+							"host": [
+								"www",
+								"omdbapi",
+								"com"
+							],
+							"path": [
+								""
+							],
+							"query": [
+								{
+									"key": "s",
+									"value": "godfather"
+								},
+								{
+									"key": "type",
+									"value": "movie"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Series",
+			"item": [
+				{
+					"name": "Series By Title",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://www.omdbapi.com/?t=gossip+girl&type=series",
+							"protocol": "https",
+							"host": [
+								"www",
+								"omdbapi",
+								"com"
+							],
+							"path": [
+								""
+							],
+							"query": [
+								{
+									"key": "t",
+									"value": "gossip+girl"
+								},
+								{
+									"key": "type",
+									"value": "series"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search By Series",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://www.omdbapi.com/?s=supernatural&type=series",
+							"protocol": "https",
+							"host": [
+								"www",
+								"omdbapi",
+								"com"
+							],
+							"path": [
+								""
+							],
+							"query": [
+								{
+									"key": "s",
+									"value": "supernatural"
+								},
+								{
+									"key": "type",
+									"value": "series"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "General",
+			"item": [
+				{
+					"name": "General By Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://www.omdbapi.com/?i=tt3896198",
+							"protocol": "https",
+							"host": [
+								"www",
+								"omdbapi",
+								"com"
+							],
+							"path": [
+								""
+							],
+							"query": [
+								{
+									"key": "i",
+									"value": "tt3896198"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search General",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://www.omdbapi.com/?s=fast+furious",
+							"protocol": "https",
+							"host": [
+								"www",
+								"omdbapi",
+								"com"
+							],
+							"path": [
+								""
+							],
+							"query": [
+								{
+									"key": "s",
+									"value": "fast+furious"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
