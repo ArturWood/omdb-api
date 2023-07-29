@@ -1,4 +1,8 @@
+target/
+omdb-api.iml
+
 ### IntelliJ IDEA ###
+.idea/
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/

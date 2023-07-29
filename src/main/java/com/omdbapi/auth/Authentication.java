@@ -9,11 +9,11 @@ public class Authentication {
         Properties properties = new Properties();
 
         try {
-            FileInputStream file = new FileInputStream("src/config.properties");
+            FileInputStream file = new FileInputStream("src/main/resources/config.properties");
             properties.load(file);
             file.close();
         } catch (IOException e) {
-            e.getMessage();
+            System.out.println(e.getMessage());
             return null;
         }
 

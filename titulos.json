@@ -1,32 +1,5 @@
 [
   {
-    "Title": "Matrix",
-    "Year": "2020",
-    "Released": "28 Jan 2020",
-    "Runtime": "42 min",
-    "Genre": "Documentary, Sci-Fi",
-    "imdbRating": "7.0",
-    "Type": "movie"
-  },
-  {
-    "Title": "Top Gun: Maverick",
-    "Year": "2022",
-    "Released": "27 May 2022",
-    "Runtime": "130 min",
-    "Genre": "Action, Drama",
-    "imdbRating": "8.3",
-    "Type": "movie"
-  },
-  {
-    "Title": "Godfather",
-    "Year": "2022",
-    "Released": "05 Oct 2022",
-    "Runtime": "157 min",
-    "Genre": "Action, Crime, Drama",
-    "imdbRating": "5.2",
-    "Type": "movie"
-  },
-  {
     "Title": "Friends",
     "Year": "1994–2004",
     "Released": "22 Sep 1994",
@@ -36,21 +9,12 @@
     "Type": "series"
   },
   {
-    "Title": "Gossip Girl",
-    "Year": "2007–2012",
-    "Released": "19 Sep 2007",
-    "Runtime": "42 min",
-    "Genre": "Drama, Romance",
-    "imdbRating": "7.5",
-    "Type": "series"
-  },
-  {
-    "Title": "Euphoria",
-    "Year": "2019–",
-    "Released": "16 Jun 2019",
-    "Runtime": "55 min",
-    "Genre": "Drama",
-    "imdbRating": "8.3",
-    "Type": "series"
+    "Title": "Top Gun",
+    "Year": "1986",
+    "Released": "16 May 1986",
+    "Runtime": "109 min",
+    "Genre": "Action, Drama",
+    "imdbRating": "6.9",
+    "Type": "movie"
   }
 ]
