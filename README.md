@@ -41,6 +41,7 @@ O projeto possui a seguinte estrutura de arquivos:
 
 ```bash
 ├── src
+│ ├── main/java
 │ ├── com
 │ │ └── omdbapi
 │ │ ├── auth
@@ -58,6 +59,7 @@ O projeto possui a seguinte estrutura de arquivos:
 └── OMDB.postman_collection.json
 └── titulos.json
 └── .gitignore
+└── pom.xml
 ```
 
 - O pacote `com.omdbapi.auth` contém a classe `Authentication` que coleta as informações para a autenticação na API OMDB do arquivo `config.properties`.
@@ -67,6 +69,7 @@ O projeto possui a seguinte estrutura de arquivos:
 - O arquivo `.gitignore` especifica os arquivos e pastas que devem ser ignorados pelo controle de versão do Git.
 - O arquivo `titulos.json` é gerado automaticamente com as informações dos titulos buscados na API.
 - O arquivo `OMDB.postman_collection` é uma coleção do postman para consultas e exemlos de retornos da API OMDB.
+- O arquivo `pom.xml` para download das dependencias necessarias para o projeto usando maven.
 
 ## Documentação
 
